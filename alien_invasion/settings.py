@@ -6,7 +6,7 @@ class Settings():
         # Screen settings
         self.screen_width = 1000
         self.screen_height = 750
-        self.bg_color = (22, 143, 199)
+        self.bg_color = (10, 10, 10)
 
         # Ship settings
         self.ship_speed_factor = 1.5
@@ -16,4 +16,5 @@ class Settings():
         self.bullet_width = 3
         self.bullet_height = 5
         self.bullet_color = 60, 60, 60
+
         self.bullets_allowed = 3
